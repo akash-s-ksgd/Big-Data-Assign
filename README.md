@@ -25,4 +25,4 @@ The five assignment outcomes are also available as independent folders under [`o
 
 ## Important limits
 
-Kafka producer and consumer use a real single-node Kafka broker when run per the guide. The Java Flink DataStream job compiles and is configured for a local cluster; its runtime image still needs to be pulled before the cluster demo. Hive and MongoDB use local containers. Cloud analytics is a local proof of concept unless the optional Athena queries are run in an AWS account. Vitals thresholds are educational examples only, not clinical guidance. Container data is local and intended for the demonstration.
+Kafka producer and consumer use a real single-node Kafka broker when run per the guide. The Java Flink DataStream job ran successfully on the local Flink 1.19.1 cluster, producing four alerts and three patient-window summaries. Hive and MongoDB use local containers. Cloud analytics is a local proof of concept unless the optional Athena queries are run in an AWS account. Vitals thresholds are educational examples only, not clinical guidance. Container data is local and intended for the demonstration.
