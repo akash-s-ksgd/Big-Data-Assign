@@ -1,0 +1,13 @@
+transaction_ts,branch,product,quantity,unit_price
+2026-10-01 08:10,North,Milk,3,2.5
+2026-10-01 08:25,North,Bread,4,1.8
+2026-10-01 12:05,North,Coffee,2,8.0
+2026-10-01 18:15,South,Milk,5,2.5
+2026-10-01 18:40,South,Rice,2,12.0
+2026-10-02 12:20,East,Coffee,3,8.0
+2026-10-02 19:05,East,Bread,6,1.8
+2026-10-02 19:30,North,Rice,3,12.0
+2026-10-03 08:45,South,Bread,5,1.8
+2026-10-03 12:10,South,Coffee,4,8.0
+2026-10-03 18:55,East,Milk,4,2.5
+2026-10-03 19:10,North,Milk,2,2.5

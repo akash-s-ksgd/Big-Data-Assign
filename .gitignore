@@ -1,0 +1,4 @@
+.venv/
+**/target/
+**/build.log
+__pycache__/

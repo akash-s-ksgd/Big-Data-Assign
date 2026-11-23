@@ -1,0 +1,31 @@
+{
+  "requests": 14,
+  "status_counts": {
+    "200": 7,
+    "404": 2,
+    "500": 4,
+    "503": 1
+  },
+  "server_errors": 5,
+  "top_server_error_paths": [
+    [
+      "/api/pay",
+      4
+    ],
+    [
+      "/api/search",
+      1
+    ]
+  ],
+  "request_counts_by_hour_utc": {
+    "2026-11-20T09": 3,
+    "2026-11-20T10": 4,
+    "2026-11-20T11": 3,
+    "2026-11-20T12": 4
+  },
+  "peak_hour_utc": [
+    "2026-11-20T10",
+    4
+  ],
+  "p95_latency_ms_nearest_rank": 487
+}
