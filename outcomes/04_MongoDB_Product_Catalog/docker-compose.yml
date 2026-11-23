@@ -1,0 +1,13 @@
+name: big-data-04_mongodb_product_catalog
+services:
+  mongo:
+    image: mongo:7.0
+    profiles:
+    - mongo
+    container_name: bigdata-mongo
+    ports:
+    - 27017:27017
+    volumes:
+    - mongo-data:/data/db
+volumes:
+  mongo-data: {}

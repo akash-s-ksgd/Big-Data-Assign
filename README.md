@@ -12,6 +12,10 @@ python -m pip install -r requirements.txt
 
 Each service runs separately to reduce laptop memory use. Follow [DEMO_RUNBOOK.md](DEMO_RUNBOOK.md) for the presentation order and exact commands. Hive, Kafka, Flink, and MongoDB examples use their named services. The cloud activity is a local log-analysis simulation plus optional Athena SQL; no AWS resources are created.
 
+## Separate expected outcomes
+
+The five assignment outcomes are also available as independent folders under [`outcomes/`](outcomes/). Each folder contains its problem statement, expected outcome, activity report, technology-specific code and synthetic data, plus a standalone README and Docker Compose configuration where applicable. A clean handoff copy is on `D:\Big_Data_Assignment`.
+
 ## Project files
 
 - `Consolidated_Report.docx` — assignment report with technology study, implementation, sample results, interpretation, conclusions, references, and limits.
@@ -21,4 +25,4 @@ Each service runs separately to reduce laptop memory use. Follow [DEMO_RUNBOOK.m
 
 ## Important limits
 
-Kafka producer and consumer use a real single-node Kafka broker when run per the guide. Flink uses a real local Flink cluster and Java DataStream job. Hive and MongoDB use local containers. Cloud analytics is a local proof of concept unless the optional Athena queries are run in an AWS account. Vitals thresholds are educational examples only, not clinical guidance. Container data is local and intended for the demonstration.
+Kafka producer and consumer use a real single-node Kafka broker when run per the guide. The Java Flink DataStream job compiles and is configured for a local cluster; its runtime image still needs to be pulled before the cluster demo. Hive and MongoDB use local containers. Cloud analytics is a local proof of concept unless the optional Athena queries are run in an AWS account. Vitals thresholds are educational examples only, not clinical guidance. Container data is local and intended for the demonstration.

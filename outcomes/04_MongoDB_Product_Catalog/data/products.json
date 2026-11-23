@@ -1,0 +1,54 @@
+[
+  {
+    "sku": "P1001",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "brand": "Northstar",
+    "price": 24.99,
+    "rating": 4.4,
+    "stock": 32,
+    "specs": {
+      "connectivity": "2.4GHz",
+      "color": "black"
+    }
+  },
+  {
+    "sku": "P1002",
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "brand": "LinkPro",
+    "price": 49.5,
+    "rating": 4.6,
+    "stock": 12,
+    "specs": {
+      "ports": 7,
+      "power_delivery_w": 100
+    }
+  },
+  {
+    "sku": "P2001",
+    "name": "Trail Bottle",
+    "category": "Outdoors",
+    "brand": "Summit",
+    "price": 18.0,
+    "rating": 4.2,
+    "stock": 0,
+    "specs": {
+      "capacity_ml": 750,
+      "material": "steel"
+    }
+  },
+  {
+    "sku": "P3001",
+    "name": "Desk Lamp",
+    "category": "Home",
+    "brand": "Luma",
+    "price": 35.0,
+    "rating": 4.1,
+    "stock": 8,
+    "specs": {
+      "dimmable": true,
+      "color": "white"
+    }
+  }
+]

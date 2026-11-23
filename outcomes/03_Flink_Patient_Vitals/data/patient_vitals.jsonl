@@ -1,0 +1,6 @@
+{"patient_id": "P101", "ts": "2026-11-20T10:00:00Z", "heart_rate_bpm": 78, "spo2_pct": 98, "temperature_c": 36.8}
+{"patient_id": "P102", "ts": "2026-11-20T10:00:10Z", "heart_rate_bpm": 112, "spo2_pct": 96, "temperature_c": 37.1}
+{"patient_id": "P101", "ts": "2026-11-20T10:00:20Z", "heart_rate_bpm": 82, "spo2_pct": 89, "temperature_c": 36.9}
+{"patient_id": "P103", "ts": "2026-11-20T10:00:30Z", "heart_rate_bpm": 75, "spo2_pct": 97, "temperature_c": 38.2}
+{"patient_id": "P102", "ts": "2026-11-20T10:00:40Z", "heart_rate_bpm": 118, "spo2_pct": 94, "temperature_c": 37.3}
+{"patient_id": "P103", "ts": "2026-11-20T10:00:50Z", "heart_rate_bpm": 80, "spo2_pct": 98, "temperature_c": 36.7}

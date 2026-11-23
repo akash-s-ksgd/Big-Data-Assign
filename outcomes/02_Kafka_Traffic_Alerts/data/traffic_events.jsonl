@@ -1,0 +1,6 @@
+{"event_id": "T001", "junction": "J-A", "road": "Central Ave", "speed_kmh": 18, "vehicle_count": 92, "ts": "2026-11-20T08:00:00Z"}
+{"event_id": "T002", "junction": "J-B", "road": "River Rd", "speed_kmh": 42, "vehicle_count": 35, "ts": "2026-11-20T08:00:05Z"}
+{"event_id": "T003", "junction": "J-A", "road": "Central Ave", "speed_kmh": 14, "vehicle_count": 105, "ts": "2026-11-20T08:00:10Z"}
+{"event_id": "T004", "junction": "J-C", "road": "Market St", "speed_kmh": 22, "vehicle_count": 81, "ts": "2026-11-20T08:00:15Z"}
+{"event_id": "T005", "junction": "J-B", "road": "River Rd", "speed_kmh": 38, "vehicle_count": 41, "ts": "2026-11-20T08:00:20Z"}
+{"event_id": "T006", "junction": "J-C", "road": "Market St", "speed_kmh": 17, "vehicle_count": 88, "ts": "2026-11-20T08:00:25Z"}

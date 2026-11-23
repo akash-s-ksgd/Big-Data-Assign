@@ -1,0 +1,42 @@
+name: big-data-03_flink_patient_vitals
+services:
+  flink-jobmanager:
+    image: flink:1.19.1-scala_2.12-java17
+    profiles:
+    - flink
+    container_name: bigdata-flink-jobmanager
+    command: jobmanager
+    ports:
+    - 8081:8081
+    environment:
+      FLINK_PROPERTIES: 'jobmanager.rpc.address: flink-jobmanager'
+    volumes:
+    - ./flink/target:/opt/flink/usrlib:ro
+  flink-taskmanager:
+    image: flink:1.19.1-scala_2.12-java17
+    profiles:
+    - flink
+    container_name: bigdata-flink-taskmanager
+    command: taskmanager
+    depends_on:
+    - flink-jobmanager
+    environment:
+      FLINK_PROPERTIES: 'jobmanager.rpc.address: flink-jobmanager
+
+        taskmanager.numberOfTaskSlots: 2'
+  flink-builder:
+    image: maven:3.9.9-eclipse-temurin-17
+    profiles:
+    - flink
+    working_dir: /workspace
+    volumes:
+    - ./flink:/workspace
+    - maven-cache:/root/.m2
+    entrypoint:
+    - mvn
+    - -B
+    - -ntp
+    - -DskipTests
+    - package
+volumes:
+  maven-cache: {}

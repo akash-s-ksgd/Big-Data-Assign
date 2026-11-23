@@ -1,0 +1,15 @@
+name: big-data-01_hive_sales_analysis
+services:
+  hive:
+    image: apache/hive:4.0.0
+    profiles:
+    - hive
+    container_name: bigdata-hive
+    environment:
+      SERVICE_NAME: hiveserver2
+    ports:
+    - 10000:10000
+    - 10002:10002
+    volumes:
+    - ./data:/data:ro
+    - ./code:/project/code:ro
